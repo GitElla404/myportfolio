@@ -28,25 +28,6 @@ body {
   position: relative;
 }
 
-.pic-ctn {
-  width: 100vw;
-  height: 200px;
-}
-
-.pic-ctn {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  overflow: hidden;
-}
-
-.pic-ctn img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  animation: display 10s infinite;
-}
-
 img:nth-child(2) {
   animation-delay: 2s;
 }
@@ -906,6 +887,10 @@ img {
 }
 
 @media (max-width: 375px) {
+  #e875bOOHwg4ujDr3 {
+    margin-left: -10vw;
+  }
+
   #Er9GmHrnPJdOdDvW {
     grid-area: 2 / 2 / 3 / 3;
     position: relative;
@@ -2609,6 +2594,10 @@ img {
 }
 
 @media (min-width: 375.05px) and (max-width: 480px) {
+  #e875bOOHwg4ujDr3 {
+    margin-left: -15vw;
+  }
+
   #Er9GmHrnPJdOdDvW {
     grid-area: 2 / 2 / 3 / 3;
     position: relative;
@@ -4312,6 +4301,10 @@ img {
 }
 
 @media (min-width: 480.05px) and (max-width: 768px) {
+  #e875bOOHwg4ujDr3 {
+    margin-left: -20vw;
+  }
+
   #Er9GmHrnPJdOdDvW {
     grid-area: 2 / 2 / 3 / 3;
     position: relative;
@@ -6016,6 +6009,10 @@ img {
 }
 
 @media (min-width: 768.05px) and (max-width: 1024px) {
+  #e875bOOHwg4ujDr3 {
+    margin-left: -25vw;
+  }
+
   #Er9GmHrnPJdOdDvW {
     grid-area: 2 / 2 / 3 / 3;
     position: relative;
@@ -7720,6 +7717,10 @@ img {
 }
 
 @media (min-width: 1024.05px) {
+  #e875bOOHwg4ujDr3 {
+    margin-left: -35vh;
+  }
+
   #Er9GmHrnPJdOdDvW {
     grid-area: 2 / 2 / 3 / 3;
     position: relative;
