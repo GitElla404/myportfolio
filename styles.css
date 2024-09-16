@@ -52,6 +52,14 @@ img:nth-child(6) {
   animation-delay: 10s;
 }
 
+.like-icon {
+  cursor: pointer;
+}
+
+.text-red {
+  color: #f00;
+}
+
 @keyframes display {
   0% {
     transform: translateX(200px);
