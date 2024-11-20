@@ -83,7 +83,10 @@ projects.forEach((project) => {
   const projectCard = document.createElement("div");
   projectCard.classList.add(
     "bg-white",
-    "p-4",
+    "pt-3",
+    "pr-3",
+    "pb-0",
+    "pl-3",
     "border-2",
     "border-secondary",
     "rounded-lg",

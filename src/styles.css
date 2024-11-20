@@ -3,3 +3,70 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css?family=Turret%20Road:700|Turret%20Road:400');
+
+
+@media (max-width: 480px) {
+  /* body{
+    border: 2px solid black;
+  } */
+
+  .my_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .my_section > div {
+    width: 100%;
+    max-width: 100%;
+    margin: 5px 0;
+  }
+
+  .my_section > div:first-child {
+    order: 1;
+    width: 200px;
+    height: 200px;
+  }
+
+  .my_section > div:nth-child(3) {
+    order: 2; 
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .my_section > div:nth-child(4) {
+    order: 3; 
+    text-align: center;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .my_section > div:nth-child(4) a {
+    font-size: 9px;
+    padding: 5px;
+  }
+
+  .my_section > div:nth-child(2) {
+    order: 4; 
+  }
+
+  .w-64, .sm:w-80, .lg:w-96 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex a {
+    margin-bottom: 10px; 
+  }
+
+}
